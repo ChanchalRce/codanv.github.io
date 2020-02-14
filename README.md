@@ -1,2 +1,6 @@
-# thecodanv.github.io
-Documenting TheCodanV
+# TheCodanV
+---
+`Coding`
+`Designing`
+`Analysing`
+`Visualizing`
