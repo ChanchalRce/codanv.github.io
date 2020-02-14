@@ -1,5 +1,4 @@
 # TheCodanV
----
 `Coding`
 `Designing`
 `Analysing`
