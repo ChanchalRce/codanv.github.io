@@ -1,0 +1,18 @@
+* {
+  font-family: sans-serif;
+}
+
+#contianer {
+  width: 700px;
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+h1 {
+  color: grey;
+  padding: 4px;
+}
+
+li {
+  color: orangered;
+}
