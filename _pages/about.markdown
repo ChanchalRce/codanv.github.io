@@ -14,5 +14,5 @@ Let's continue the endeavour...
 
 [Twitter](http://twitter.com/{{ site.twitter_username }})
 
-[Github](http://{{ site.github_username }}.github.io)
+[Github](http://github.com/{{ site.github_username }})
 
