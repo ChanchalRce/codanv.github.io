@@ -23,8 +23,8 @@ title: Codanv
 description: >- # this means to ignore newlines until "baseurl:"
   Our ambition is to effectively model real-world objects/situations to software objects/programs by designing, coding, analysing and visualizing.
   In order to do so, we need to have the right mindset and specific domain knowledge. Let's continue the endeavour...
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "codanv.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Codanv
 instagram_username: thecodanv
 twitter_username: Codanv
