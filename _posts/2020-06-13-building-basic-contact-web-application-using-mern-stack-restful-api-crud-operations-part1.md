@@ -65,7 +65,7 @@ and add some scripts to start the server in `"scripts"` property
 So your `package.json` looks like the following
 
 
-**`package.json`**
+**package.json**
 ```json
 {
   "name": "mern-stack-contact-app",
@@ -96,7 +96,7 @@ So your `package.json` looks like the following
 
 create `server.js` file with following code in the root of `mern-stack-contact-app` project directory
 
-**`server.js`**
+**server.js**
 ```javascript
 const express = require("express");
 const cors = require("cors");
@@ -150,7 +150,7 @@ Okay! Let's create some HTTP endpoints (RESTful api for CRUD Operations) to
 
 *Let's see snippets for CRUD Operations, Don't worry, we'll add them in server.js later.*
 
-**`To Read Contact`**
+**To Read Contact**
 ```js
 app.get("/contacts", (req, res) => {
   db.collection("contacts")
@@ -162,7 +162,7 @@ app.get("/contacts", (req, res) => {
 });
 ```
 
-**`To Create Contact`**
+**To Create Contact**
 ```js
 app.post("/contacts/create", (req, res) => {
   db.collection("contacts").insertOne(req.body, (err) => {
@@ -173,7 +173,7 @@ app.post("/contacts/create", (req, res) => {
 });
 ```
 
-**`To Update Contact`**
+**To Update Contact**
 ```js
 app.put("/contacts/update", (req, res) => {
   const { _id, ...rest } = req.body;
@@ -189,7 +189,7 @@ app.put("/contacts/update", (req, res) => {
 });
 ```
 
-**`To Delete Contact`**
+**To Delete Contact**
 ```js
 app.delete("/contacts/delete", (req, res) => {
   db.collection("contacts").deleteOne(
